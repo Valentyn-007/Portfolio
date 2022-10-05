@@ -179,6 +179,11 @@ img {
 
 }
 
+#contact {
+    background-color: rgba(12, 10, 10, 0.884);
+
+}
+
 @keyframes bobbing-circle {
     0% {
         bottom: 0;
