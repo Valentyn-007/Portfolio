@@ -231,11 +231,13 @@ img {
     .navbar .collapse {
         background-color: white;
     }
+
+
 }
 
 @media screen and (max-width:567px) {
     #home {
-        /* background-image: none; */
+        background-image: none;
         position: relative;
         overflow: hidden;
         background-size: contain;
@@ -282,4 +284,18 @@ img {
 
 .custom-link:hover i {
     transform: translateX(6px);
+}
+
+.timeline-backbone {
+    position: relative;
+}
+
+.timeline-backbone::after {
+    content: '';
+    width: 2px;
+    /* height: 100px; */
+    background-color: var(--c-brand);
+    position: absolute;
+    top: 0px;
+    left: 50%;
 }
